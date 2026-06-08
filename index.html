@@ -3,20 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Pranjali Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+    <!-- Header Section -->
+
     <header>
-        <h1>Pranjali Singh</h1>
+        <nav>
+            <h1 class="logo">Pranjali Singh</h1>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="hero">
-        <img src="images/profile.jpg" alt="Profile">
-        <h2>Hello, I'm Pranjali</h2>
-        <p>Aspiring Software Engineer</p>
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-left">
+
+            <h2>Hello, I'm Pranjali 👋</h2>
+
+            <h3>Aspiring Software Engineer</h3>
+
+            <p>
+                Passionate about Python, FastAPI, Web Development,
+                and building real-world software solutions.
+            </p>
+
+            <a href="#contact" class="btn">
+                Hire Me
+            </a>
+
+            <a href="assets/resume.pdf" download class="btn resume-btn">
+                Download Resume
+            </a>
+
+        </div>
+
+        <div class="hero-right">
+
+            <img src="images/profile.jpg"
+                 alt="Profile Photo">
+
+        </div>
+
     </section>
 
 </body>
